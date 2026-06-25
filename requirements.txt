@@ -3,3 +3,4 @@ pydantic-settings==2.5.2
 python-dotenv==1.0.1
 docling==2.15.1
 supabase>=2.15.0
+langchain-text-splitters>=0.3.0
