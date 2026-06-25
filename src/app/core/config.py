@@ -29,6 +29,8 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
+    gemini_embed_model: str = "text-embedding-005"
+
 
 @lru_cache
 def get_settings() -> Settings:
